@@ -1,0 +1,46 @@
+.sidebar {
+  color: white;
+  background-color: #252525;
+  height: 100%;
+}
+
+.logo-area {
+  width: 190px;
+  height: 59px;
+}
+
+.logo {
+  margin: 15px 0px 0px 0px;
+  max-width: 190px;
+  width: 100%;
+  height: 100%;
+}
+
+.first {
+  margin-top: 50px;
+}
+
+.link {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 15px;
+  width: 190px;
+  height: 48px;
+}
+
+.link:link,
+.link:visited,
+.link:hover,
+.link:active {
+  color: white;
+  text-decoration: none;
+}
+
+.icon {
+  display: block;
+  margin-left: 20px;
+  margin-right: 5px;
+  text-align: center;
+  width: 12px;
+}

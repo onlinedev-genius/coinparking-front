@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // デフォルトフォーマッターをPrettierに指定
+  "eslint.workingDirectories": ["./src"], // ESLintの対象ディレクトリを指定
+  "eslint.experimental.useFlatConfig": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }, // ESLintのeslint.config.js(Flat Config)を有効にする
+}

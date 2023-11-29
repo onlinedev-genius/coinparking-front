@@ -1,0 +1,148 @@
+.header {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #252525;
+}
+
+.left-area {
+  z-index: 1;
+  width: 190px;
+  margin: 4px 0px 0px 180px;
+  /* background-color: white; */
+  display: flex;
+  transition: all 0.5s;
+}
+
+.left-area-moved {
+  width: 190px;
+  /* background-color: white; */
+  /* transform: translateX(-190px); */
+  transition: all 0.5s;
+}
+
+.btn-trigger {
+  position: relative;
+  width: 26px;
+  cursor: pointer;
+  padding: 16px 0px;
+  margin: 16px 0px 16px 10px;
+}
+
+.btn-trigger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.8px;
+  background-color: #747474;
+  border-radius: 3px;
+}
+
+.btn-trigger,
+.btn-trigger span {
+  display: inline-block;
+  transition: all 0.5s;
+  box-sizing: border-box;
+}
+
+.btn-trigger span:nth-of-type(1) {
+  top: 0;
+}
+.btn-trigger span:nth-of-type(2) {
+  top: 9px;
+}
+.btn-trigger span:nth-of-type(3) {
+  top: 18px;
+}
+
+.btn-trigger-clicked {
+  position: relative;
+  width: 26px;
+  cursor: pointer;
+  padding: 16px 0px;
+  margin: 16px 0px 16px 10px;
+}
+
+.btn-trigger-clicked span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 1.8px;
+  background-color: #747474;
+  border-radius: 3px;
+}
+
+.btn-trigger-clicked span:nth-of-type(1) {
+  top: 0;
+}
+.btn-trigger-clicked span:nth-of-type(2) {
+  top: 9px;
+}
+.btn-trigger-clicked span:nth-of-type(3) {
+  top: 18px;
+}
+
+.btn-trigger-clicked span:nth-of-type(1) {
+  transform: translateY(9px) rotate(-45deg);
+  transition: all 0.5s;
+}
+
+.btn-trigger-clicked span:nth-of-type(2) {
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.btn-trigger-clicked span:nth-of-type(3) {
+  transform: translateY(-9px) rotate(45deg);
+  transition: all 0s;
+}
+
+.right-area {
+  /* display:flex; */
+  /* margin-right: 40px; */
+  margin: 0px 0px 0px auto;
+}
+
+.link {
+  width: 140px;
+  height: 59px;
+  text-align: center;
+}
+
+.top-text {
+  font-size: 16px;
+  color: #747474;
+  padding-top: 15px;
+}
+
+.bottom-text {
+  font-size: 12px;
+  color: #1188e8;
+  padding-bottom: 12px;
+}
+
+.user {
+  width: 160px;
+  height: 59px;
+  /* margin-left: 32px; */
+  background-color: #1188e8;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.user-top-text {
+  font-size: 13px;
+  margin: 5px 0px 0px 11px;
+}
+
+.user-bottom-text {
+  width: 80px;
+  font-size: 16px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

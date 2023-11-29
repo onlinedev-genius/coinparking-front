@@ -1,0 +1,352 @@
+.background {
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+    'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1f1;
+}
+
+.form {
+  /* Layout Properties */
+  width: 494px;
+  height: 389px;
+
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #fff 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+
+.title {
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 20px/23px AppleSystemUIFont;
+  letter-spacing: 0;
+  color: #333;
+  opacity: 1;
+  padding-top: 24px;
+  padding-left: 26px;
+}
+
+.subTitle {
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 10px/23px AppleSystemUIFont;
+  letter-spacing: 0;
+  color: #333;
+  opacity: 1;
+  padding-top: 24px;
+  padding-left: 26px;
+}
+
+.label {
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 10px/23px AppleSystemUIFont;
+  letter-spacing: 0;
+  color: #333;
+  opacity: 1;
+}
+
+.link {
+  text-align: left;
+  font: normal normal bold 10px/23px AppleSystemUIFont;
+  letter-spacing: 0;
+  opacity: 1;
+}
+
+.emailText {
+  border: none;
+  width: 420px;
+  margin-left: 10px;
+}
+
+.emailField {
+  border: 1px solid #eee;
+  box-shadow: rgb(122 122 122 / 5.88%) 0 0 6px 3px;
+  box-shadow: rgb(122 122 122 / 5.88%) 0 0 6px 3px;
+  box-shadow: rgb(122 122 122 / 5.88%) 0 0 6px 3px;
+  border-radius: 5px;
+  width: 440px;
+  margin-left: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.PasswordText {
+  border: none;
+  width: 400px;
+  margin-left: 10px;
+}
+
+.passwordField {
+  border: 1px solid #eee;
+  box-shadow: rgb(122 122 122 / 5.88%) 0 0 6px 3px;
+  box-shadow: rgb(122 122 122 / 5.88%) 0 0 6px 3px;
+  box-shadow: rgb(122 122 122 / 5.88%) 0 0 6px 3px;
+  border-radius: 5px;
+  width: 440px;
+  margin-left: 26px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.PasswordReveal {
+  right: 10px;
+  top: 10px;
+  border: none;
+}
+
+.checkboxField {
+  padding-top: 24px;
+  padding-left: 26px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.linkField {
+  padding-top: 24px;
+  text-align: center;
+}
+
+.pipeLin {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.submitButtonField {
+  padding-top: 24px;
+  text-align: center;
+}
+
+.submitButton {
+  width: 100px;
+  height: 25px;
+
+  /* UI Properties */
+  background: #1188e8 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border: none;
+  letter-spacing: var(--unnamed-character-spacing-0);
+  font: normal normal bold 10px/23px AppleSystemUIFont;
+  letter-spacing: 0;
+  color: #fff;
+  opacity: 1;
+  text-align: center;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+
+  /* overflow: auto; */
+  text-align: center;
+  padding: 30px 0;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+/* ===================== loading spiner =================== */
+.loader_container {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: #00000075;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.loader_container span {
+  border-color: #1188e8 #1188e8 transparent !important;
+  border-width: 6px !important;
+}
+
+.card {
+  width: 250px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.itemtitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.select {
+  width: 20px;
+  height: 20px;
+
+  /* border: solid 3px #8FAADC; */
+  padding-left: 5px;
+}
+
+.input {
+  width: 200px;
+  height: 35px;
+
+  /* border: solid 3px #8FAADC; */
+  padding-left: 5px;
+}
+
+.terms2 {
+  font-size: 14px;
+  color: white;
+}
+
+.terms {
+  font-size: 14px;
+  color: #00b0f0;
+  margin-left: 10px;
+  border-bottom: 1px solid #00b0f0;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  margin: 20px 0 20px 65px;
+  width: 960px;
+  flex-wrap: wrap;
+  gap: 21px 24px;
+}
+
+.add_btn_div {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.link {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  /* width: 200px;
+    height: 40px; */
+  text-decoration: underline;
+  color: #36c1f3;
+  font-size: 17px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.tb_container {
+  margin: 30px;
+
+  /* overflow-y: auto; */
+}
+
+.tb_header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* width: 100%; */
+  border: black solid 1px;
+}
+
+.tb_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* width: 100%; */
+  border: black solid 1px;
+  border-top: none;
+}
+
+.edit_item {
+  width: 100%;
+  height: 25px;
+  margin: 0 5px;
+  padding-left: 5px;
+  font-size: 17px;
+}
+
+.col1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 35px;
+}
+
+.col2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 35px;
+  border-left: black solid 1px;
+}
+
+.col3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 35px;
+  border-left: black solid 1px;
+}
+
+.col4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 35px;
+  border-left: black solid 1px;
+}
+
+.col5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 35px;
+  border-left: black solid 1px;
+}
+
+.search_btn {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  background-color: #a5a5a5;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,83 @@
+/* グローバルCSS */
+/* 後ほどglobals.cssと統合する */
+
+/* ===================== margin =================== */
+.margin01 {
+  height: 50px;
+}
+
+.margin02 {
+  height: 100px;
+}
+
+.mt5px {
+  margin-top: 5px !important;
+}
+
+.mt10px {
+  margin-top: 10px !important;
+}
+
+.mt15px {
+  margin-top: 15px !important;
+}
+
+.mt20px {
+  margin-top: 20px !important;
+}
+
+.mt25px {
+  margin-top: 25px !important;
+}
+
+.mt30px {
+  margin-top: 30px !important;
+}
+
+/* ===================== width =================== */
+
+.w30px {
+  width: 30px !important;
+}
+
+.w60px {
+  width: 60px !important;
+}
+
+.w300px {
+  width: 300px !important;
+}
+
+.w400px {
+  width: 400px !important;
+}
+
+/* ===================== frex =================== */
+.cs-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-flex-gap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+/* ===================== loading spiner =================== */
+.loader-container {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: #00000075;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.loader-container span {
+  border-color: #1188e8 #1188e8 transparent !important;
+  border-width: 6px !important;
+}

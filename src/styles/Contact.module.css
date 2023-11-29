@@ -1,0 +1,198 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  color: black;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.content {
+  font-size: 16px;
+  color: black;
+  display: inline-block;
+  width: 100%;
+  max-width: 700px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.error-msg-container {
+  display: block;
+}
+
+.error-msg {
+  color: #f66;
+}
+
+.name-input-container {
+  padding: 10px 20px;
+}
+
+.name-input-title-container {
+  display: block;
+}
+
+.name-input-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.name-input {
+  width: 100%;
+  max-width: 200px;
+  font-size: 16px;
+}
+
+.email-input-container {
+  padding: 10px 20px;
+}
+
+.email-input-title-container {
+  display: block;
+}
+
+.email-input-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.email-input {
+  width: 100%;
+  max-width: 350px;
+  font-size: 16px;
+}
+
+.email2-input-container {
+  padding: 10px 20px;
+}
+
+.email2-input-title-container {
+  display: block;
+}
+
+.email2-input-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.email2-input {
+  width: 100%;
+  max-width: 350px;
+  font-size: 16px;
+}
+
+.phone-num-input-container {
+  padding: 10px 20px;
+}
+
+.phone-num-input-title-container {
+  display: block;
+}
+
+.phone-num-input-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.phone-num-input {
+  width: 100%;
+  max-width: 200px;
+  font-size: 16px;
+}
+
+.title-input-container {
+  padding: 10px 20px;
+}
+
+.title-input-title-container {
+  display: block;
+}
+
+.title-input-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.title-input {
+  width: 100%;
+  font-size: 16px;
+}
+
+.place-name-input-container {
+  padding: 10px 20px;
+}
+
+.place-name-input-title-container {
+  display: block;
+}
+
+.place-name-input-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.place-name-input {
+  width: 100%;
+  font-size: 16px;
+}
+
+.content-text-area-container {
+  padding: 10px 20px;
+}
+
+.content-text-area-title-container {
+  display: block;
+}
+
+.content-text-area-title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content-text-area {
+  width: 100%;
+  height: 200px !important;
+  font-size: 16px;
+}
+
+.send-button-container {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.send-button {
+  width: 100%;
+  max-width: 200px;
+}
+
+.require {
+  color: #fff;
+  background-color: #f00;
+  width: 30px;
+  font-size: 9px;
+  margin: 0 0 0 5px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* ===================== loading spiner =================== */
+.loader-container {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: #00000075;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.loader-container span {
+  border-color: #1188e8 #1188e8 transparent !important;
+  border-width: 6px !important;
+}
